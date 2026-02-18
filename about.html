@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Megan Williamson, M.S., CCC-SLP | Clear Sky Speech Therapy</title>
-    <meta name="description" content="Meet Megan Williamson, a credentialed and licensed speech-language pathologist serving Park City, Heber City, Midway, and Utah's mountain communities. Call 435-565-1691.">
-    <meta name="keywords" content="speech language pathologist, SLP, CCC-SLP, Megan Williamson, speech therapist credentials, Park City SLP, Heber City speech therapist, Utah speech therapist">
+    <title>About Megan Williamson, MA, CCC-SLP | Clear Sky Speech Therapy</title>
+    <meta name="description" content="Meet Megan Williamson, MA, CCC-SLP — a medically-based speech-language pathologist with expertise in TBI, stroke rehabilitation, and dysphagia. Based in Kamas, Utah, serving Summit and Wasatch County. Utah License #12304857-4102.">
+    <meta name="keywords" content="speech language pathologist, SLP, CCC-SLP, Megan Williamson, speech therapist credentials, Park City SLP, Heber City speech therapist, Utah speech therapist, VitalStim certified, dysphagia specialist, TBI rehabilitation, stroke speech therapy">
     <link rel="canonical" href="https://www.clearskyspeech.com/about.html">
     
-    <meta property="og:title" content="About Megan Williamson | Clear Sky Speech Therapy">
-    <meta property="og:description" content="Licensed speech-language pathologist serving children and adults in Park City, Heber City, Midway, and Utah's mountain communities.">
+    <meta property="og:title" content="About Megan Williamson, MA, CCC-SLP | Clear Sky Speech Therapy">
+    <meta property="og:description" content="Medically-based speech-language pathologist with expertise in TBI, stroke, and dysphagia. Serving Summit and Wasatch County communities from Kamas, Utah.">
     <meta property="og:type" content="website">
     
     <script src="https://cdn.tailwindcss.com"></script>
@@ -37,11 +37,53 @@
         "@type": "Person",
         "name": "Megan Williamson",
         "jobTitle": "Speech-Language Pathologist",
-        "credentials": "M.S., CCC-SLP",
+        "credentials": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "name": "Master of Arts in Speech-Language Pathology"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "certification",
+                "name": "Certificate of Clinical Competence in Speech-Language Pathology (CCC-SLP)"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "certification",
+                "name": "VitalStim (NMES) Certified"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "license",
+                "name": "Utah Speech-Language Pathologist License",
+                "recognizedBy": {
+                    "@type": "Organization",
+                    "name": "State of Utah"
+                },
+                "identifier": "12304857-4102"
+            }
+        ],
+        "knowsAbout": [
+            "Traumatic Brain Injury Rehabilitation",
+            "Stroke/CVA Rehabilitation",
+            "Dysphagia Management",
+            "VitalStim NMES Therapy",
+            "Modified Barium Swallow Studies",
+            "FEES Evaluation",
+            "Aphasia Treatment",
+            "Cognitive-Communication Therapy"
+        ],
         "worksFor": {
             "@type": "MedicalBusiness",
             "name": "Clear Sky Speech Therapy",
-            "telephone": "+1-435-565-1691"
+            "telephone": "+1-435-565-1691",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Kamas",
+                "addressRegion": "UT",
+                "addressCountry": "US"
+            }
         }
     }
     </script>
@@ -58,7 +100,16 @@
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="/" class="hover:text-coral transition">Home</a>
                     <a href="about.html" class="text-coral">About</a>
-                    <a href="services.html" class="hover:text-coral transition">Services</a>
+                    <div class="relative group">
+                        <a href="services.html" class="hover:text-coral transition">Services</a>
+                        <div class="absolute hidden group-hover:block bg-white text-teal-dark rounded-lg shadow-xl py-2 w-64 top-full left-0">
+                            <a href="services/language-therapy.html" class="block px-4 py-2 hover:bg-coral-light">Language Therapy</a>
+                            <a href="services/cognitive-communication.html" class="block px-4 py-2 hover:bg-coral-light">Cognitive-Communication</a>
+                            <a href="services/swallowing-therapy.html" class="block px-4 py-2 hover:bg-coral-light">Swallowing Therapy</a>
+                            <a href="services/articulation-therapy.html" class="block px-4 py-2 hover:bg-coral-light">Articulation Therapy</a>
+                            <a href="services/reading-therapy.html" class="block px-4 py-2 hover:bg-coral-light">Reading Therapy</a>
+                        </div>
+                    </div>
                     <div class="relative group">
                         <span class="hover:text-coral transition cursor-pointer">Locations</span>
                         <div class="absolute hidden group-hover:block bg-white text-teal-dark rounded-lg shadow-xl py-2 w-48 top-full left-0">
@@ -89,45 +140,178 @@
     <!-- About Content -->
     <section class="py-16">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="grid md:grid-cols-2 gap-12 items-start">
                 <div>
                     <div class="bg-coral-light rounded-2xl p-8 text-center">
                         <div class="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden">
-                            <img src="images/about-megan.png" alt="Megan Williamson, M.S., CCC-SLP" class="w-full h-full object-cover">
+                            <img src="images/about-megan.png" alt="Megan Williamson, MA, CCC-SLP" class="w-full h-full object-cover">
                         </div>
                         <h2 class="text-2xl font-bold text-teal-dark">Megan Williamson</h2>
-                        <p class="text-coral font-semibold text-lg">M.S., CCC-SLP</p>
+                        <p class="text-coral font-semibold text-lg">MA, CCC-SLP</p>
                         <p class="text-gray-600 mt-2">Licensed Speech-Language Pathologist</p>
+                        <p class="text-gray-500 text-sm mt-1">Utah License #12304857-4102</p>
+                        <p class="text-teal-dark font-medium mt-4">Based in Kamas, Utah</p>
+                        <p class="text-gray-600 text-sm">Serving Summit & Wasatch County Communities</p>
+                    </div>
+                    
+                    <!-- Quick Contact -->
+                    <div class="mt-6 bg-teal-dark rounded-xl p-6 text-white text-center">
+                        <p class="font-semibold mb-3">Ready to get started?</p>
+                        <a href="tel:+14355651691" class="inline-block bg-coral hover:bg-coral-light hover:text-teal-dark font-bold px-6 py-3 rounded-lg transition">
+                            📞 Call 435-565-1691
+                        </a>
                     </div>
                 </div>
+                
                 <div>
-                    <h2 class="text-3xl font-bold text-teal-dark mb-6">Dedicated to Your Communication Success</h2>
+                    <h2 class="text-3xl font-bold text-teal-dark mb-6">Medically-Based Expertise You Can Trust</h2>
+                    
                     <p class="text-gray-700 mb-4">
-                        Megan Williamson is a credentialed and licensed speech-language pathologist with extensive experience serving both children and adults. Her passion lies in helping individuals achieve their full communicative, cognitive, and feeding independence.
+                        I'm Megan Williamson, a medically-based speech-language pathologist with experience across acute, sub-acute, outpatient, and long-term care settings. My background in hospital-based care has given me expertise in treating some of the most complex communication and swallowing disorders.
                     </p>
+                    
                     <p class="text-gray-700 mb-4">
-                        With a Master's degree in Speech-Language Pathology and the Certificate of Clinical Competence (CCC-SLP) from the American Speech-Language-Hearing Association, Megan brings evidence-based practices and genuine compassion to every therapy session.
+                        With a Master of Arts in Speech-Language Pathology and the Certificate of Clinical Competence (CCC-SLP) from the American Speech-Language-Hearing Association, I bring evidence-based practices and genuine compassion to every therapy session. I'm also <strong>VitalStim (NMES) Certified</strong> and trained in both <strong>MBS (Modified Barium Swallow)</strong> and <strong>FEES (Fiberoptic Endoscopic Evaluation of Swallowing)</strong> diagnostic imaging.
                     </p>
+                    
                     <p class="text-gray-700 mb-6">
-                        Serving families throughout <strong>Park City, Heber City, Midway</strong>, and Utah's mountain communities, Megan believes that clear communication is foundational to quality of life.
+                        Based in <strong>Kamas, Utah</strong>, I serve families throughout <strong>Summit County, Wasatch County, Park City, Heber City, and Midway</strong>. I believe clear communication is foundational to quality of life, and I'm dedicated to helping individuals of all ages achieve their full communicative, cognitive, and feeding independence.
                     </p>
-                    <div class="bg-gray-50 rounded-xl p-6">
-                        <h3 class="font-bold text-teal-dark mb-3">Credentials & Certifications</h3>
-                        <ul class="space-y-2 text-gray-700">
-                            <li class="flex items-center">
-                                <svg class="w-5 h-5 text-coral mr-3" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                                Master of Science in Speech-Language Pathology
-                            </li>
-                            <li class="flex items-center">
-                                <svg class="w-5 h-5 text-coral mr-3" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                                ASHA Certificate of Clinical Competence (CCC-SLP)
-                            </li>
-                            <li class="flex items-center">
-                                <svg class="w-5 h-5 text-coral mr-3" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                                Licensed in Utah
-                            </li>
-                        </ul>
+                    
+                    <!-- Clinical Experience -->
+                    <div class="bg-gray-50 rounded-xl p-6 mb-6">
+                        <h3 class="font-bold text-teal-dark mb-4 text-lg">Clinical Experience</h3>
+                        <div class="space-y-4">
+                            <div class="border-l-4 border-coral pl-4">
+                                <h4 class="font-semibold text-teal-dark">Sharp Memorial Hospital</h4>
+                                <p class="text-sm text-gray-500">Level II Stroke & Trauma Center — San Diego, CA</p>
+                                <p class="text-gray-600 text-sm mt-1">Acute inpatient and outpatient diagnostics/therapy for TBI and CVA patients. Specialized in complex neurogenic communication and swallowing disorders.</p>
+                            </div>
+                            <div class="border-l-4 border-coral pl-4">
+                                <h4 class="font-semibold text-teal-dark">La Jolla Nursing and Rehabilitation</h4>
+                                <p class="text-sm text-gray-500">Post-Acute Skilled Nursing — San Diego, CA</p>
+                                <p class="text-gray-600 text-sm mt-1">Comprehensive care for post-stroke patients with speech, language, cognitive, and swallowing impairments.</p>
+                            </div>
+                        </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Credentials & Certifications -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-teal-dark text-center mb-12">Credentials & Certifications</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white rounded-xl p-6 shadow-md text-center">
+                    <div class="w-16 h-16 bg-coral rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-bold text-teal-dark mb-2">MA, CCC-SLP</h3>
+                    <p class="text-gray-600 text-sm">Master of Arts in Speech-Language Pathology with ASHA Certificate of Clinical Competence</p>
+                </div>
+                
+                <div class="bg-white rounded-xl p-6 shadow-md text-center">
+                    <div class="w-16 h-16 bg-coral rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-bold text-teal-dark mb-2">VitalStim Certified</h3>
+                    <p class="text-gray-600 text-sm">Neuromuscular Electrical Stimulation (NMES) for dysphagia treatment</p>
+                </div>
+                
+                <div class="bg-white rounded-xl p-6 shadow-md text-center">
+                    <div class="w-16 h-16 bg-coral rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-bold text-teal-dark mb-2">MBS & FEES Trained</h3>
+                    <p class="text-gray-600 text-sm">Advanced diagnostic imaging for swallowing evaluation</p>
+                </div>
+                
+                <div class="bg-white rounded-xl p-6 shadow-md text-center">
+                    <div class="w-16 h-16 bg-coral rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-bold text-teal-dark mb-2">Utah Licensed</h3>
+                    <p class="text-gray-600 text-sm">Utah License #12304857-4102</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clinical Specialties -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-teal-dark text-center mb-12">Clinical Specialties</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white border border-gray-200 rounded-xl p-6">
+                    <h3 class="text-xl font-bold text-coral mb-4">Medical & Neurological</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-coral mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span><strong>TBI & CVA/Stroke Rehabilitation</strong> — Comprehensive speech-language recovery</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-coral mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span><strong>Complex Dysphagia Management</strong> — Including VitalStim therapy</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-coral mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span><strong>PMV (Passy-Muir Valve)</strong> — Speaking valve assessment and therapy</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-coral mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span><strong>Tracheotomy & Ventilator Care</strong> — Specialized respiratory support</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="bg-white border border-gray-200 rounded-xl p-6">
+                    <h3 class="text-xl font-bold text-coral mb-4">Treatment Areas</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-coral mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span><strong>Aphasia</strong> — Language recovery after stroke or brain injury</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-coral mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span><strong>Cognitive-Communication</strong> — Memory, attention, executive function</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-coral mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span><strong>Voice Disorders</strong> — Evaluation and therapy for vocal issues</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-coral mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                            <span><strong>Neurogenic Speech Disorders</strong> — Dysarthria and apraxia of speech</span>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -143,21 +327,21 @@
                         <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
                     </div>
                     <h3 class="text-xl font-bold text-teal-dark mb-3">Compassionate Care</h3>
-                    <p class="text-gray-600">Every client deserves to be heard and understood. I create a warm, supportive environment where you can feel comfortable.</p>
+                    <p class="text-gray-600">Every client deserves to be heard and understood. I create a warm, supportive environment where you can feel comfortable on your path to recovery.</p>
                 </div>
                 <div class="bg-white rounded-xl p-6 shadow-md">
                     <div class="w-12 h-12 bg-coral rounded-lg flex items-center justify-center mb-4">
                         <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
                     </div>
                     <h3 class="text-xl font-bold text-teal-dark mb-3">Evidence-Based Practice</h3>
-                    <p class="text-gray-600">I stay current with the latest research to ensure you receive the most effective treatment approaches available.</p>
+                    <p class="text-gray-600">With hospital-level training and advanced certifications, I use the most effective, research-backed treatment approaches available.</p>
                 </div>
                 <div class="bg-white rounded-xl p-6 shadow-md">
                     <div class="w-12 h-12 bg-coral rounded-lg flex items-center justify-center mb-4">
                         <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                     </div>
-                    <h3 class="text-xl font-bold text-teal-dark mb-3">Family-Centered</h3>
-                    <p class="text-gray-600">I believe in involving families in the therapy process. When everyone works together, we achieve the best outcomes.</p>
+                    <h3 class="text-xl font-bold text-teal-dark mb-3">Multidisciplinary Approach</h3>
+                    <p class="text-gray-600">I believe in collaborative care. When appropriate, I coordinate with physicians, therapists, and caregivers for the best outcomes.</p>
                 </div>
             </div>
         </div>
@@ -187,7 +371,7 @@
             <div class="grid md:grid-cols-4 gap-8">
                 <div>
                     <img src="images/logo.png" alt="Clear Sky Speech Therapy" class="h-12 w-auto brightness-0 invert mb-4">
-                    <p class="text-gray-300 text-sm">Clear communication starts here. Serving Utah's mountain communities.</p>
+                    <p class="text-gray-300 text-sm">Clear communication starts here. Serving Utah's mountain communities from Kamas.</p>
                     <p class="mt-4"><a href="tel:+14355651691" class="text-coral font-semibold hover:text-coral-light">📞 435-565-1691</a></p>
                 </div>
                 <div>
@@ -197,6 +381,7 @@
                         <li><a href="services/cognitive-communication.html" class="hover:text-coral">Cognitive-Communication</a></li>
                         <li><a href="services/swallowing-therapy.html" class="hover:text-coral">Swallowing Therapy</a></li>
                         <li><a href="services/articulation-therapy.html" class="hover:text-coral">Articulation Therapy</a></li>
+                        <li><a href="services/reading-therapy.html" class="hover:text-coral">Reading Therapy</a></li>
                     </ul>
                 </div>
                 <div>
