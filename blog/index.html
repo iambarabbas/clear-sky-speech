@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Clear Sky Speech Therapy | Speech Therapy Resources for Parents</title>
+    <meta name="description" content="Helpful articles about speech therapy, language development, and communication for children and adults. Expert insights from a certified speech-language pathologist.">
+    <meta name="keywords" content="speech therapy blog, speech therapy resources, language development tips, speech therapy for kids, parent speech therapy guide">
+    <link rel="canonical" href="https://www.clearskyspeech.com/blog/">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Blog | Clear Sky Speech Therapy">
+    <meta property="og:description" content="Expert articles on speech therapy and communication development for children and adults.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.clearskyspeech.com/blog/">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'teal-dark': '#2D4A5E',
+                        'coral': '#E8A68C',
+                        'coral-light': '#F5D4C8',
+                        'teal-light': '#4A6B7C',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="../css/custom.css">
+    
+    <!-- Schema.org Blog Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": "Clear Sky Speech Therapy Blog",
+        "description": "Expert articles on speech therapy, language development, and communication for children and adults",
+        "url": "https://www.clearskyspeech.com/blog/",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Clear Sky Speech Therapy",
+            "url": "https://www.clearskyspeech.com"
+        },
+        "blogPost": [
+            {
+                "@type": "BlogPosting",
+                "headline": "5 Signs Your Child May Benefit from Speech Therapy",
+                "url": "https://www.clearskyspeech.com/blog/5-signs-child-needs-speech-therapy.html"
+            },
+            {
+                "@type": "BlogPosting",
+                "headline": "What to Expect at Your First Speech Therapy Evaluation",
+                "url": "https://www.clearskyspeech.com/blog/what-to-expect-first-speech-therapy-evaluation.html"
+            },
+            {
+                "@type": "BlogPosting",
+                "headline": "Speech Therapy in Park City, Utah: A Parent's Complete Guide",
+                "url": "https://www.clearskyspeech.com/blog/speech-therapy-park-city-utah-guide.html"
+            },
+            {
+                "@type": "BlogPosting",
+                "headline": "Finding the Right Speech Therapist in Orange County, CA",
+                "url": "https://www.clearskyspeech.com/blog/speech-therapist-orange-county-california.html"
+            }
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white text-gray-800">
+    <!-- Navigation -->
+    <nav class="bg-teal-dark text-white sticky top-0 z-50 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <a href="../" class="flex items-center space-x-3">
+                    <svg class="h-10 w-10" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M50 10L20 60H40L35 90L80 40H55L65 10H50Z" fill="#E8A68C" stroke="white" stroke-width="2"/>
+                        <path d="M25 75L50 35L75 75" stroke="white" stroke-width="3" fill="none"/>
+                        <path d="M35 75L50 50L65 75" stroke="#E8A68C" stroke-width="2" fill="none"/>
+                    </svg>
+                    <div>
+                        <span class="text-xl font-bold tracking-wide">Clear Sky</span>
+                        <span class="block text-xs tracking-widest text-coral">SPEECH THERAPY</span>
+                    </div>
+                </a>
+                
+                <button id="mobile-menu-btn" class="md:hidden p-2">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+                
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="../" class="hover:text-coral transition">Home</a>
+                    <a href="../about.html" class="hover:text-coral transition">About</a>
+                    <a href="../services.html" class="hover:text-coral transition">Services</a>
+                    <div class="relative group">
+                        <span class="hover:text-coral transition cursor-pointer">Locations</span>
+                        <div class="absolute hidden group-hover:block bg-white text-teal-dark rounded-lg shadow-xl py-2 w-48 top-full left-0">
+                            <a href="../locations/park-city-utah.html" class="block px-4 py-2 hover:bg-coral-light">Park City, UT</a>
+                            <a href="../locations/orange-county-california.html" class="block px-4 py-2 hover:bg-coral-light">Orange County, CA</a>
+                        </div>
+                    </div>
+                    <a href="./" class="text-coral">Blog</a>
+                    <a href="../contact.html" class="bg-coral hover:bg-coral-light hover:text-teal-dark px-4 py-2 rounded-lg transition">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="bg-gradient-to-br from-teal-dark to-teal-light text-white py-16 md:py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Speech Therapy Insights</h1>
+            <p class="text-xl text-gray-200 max-w-2xl mx-auto">
+                Expert articles and resources to help you understand speech and language development, know when to seek help, and support your child's communication journey.
+            </p>
+        </div>
+    </section>
+
+    <!-- Featured Post -->
+    <section class="py-12 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-2xl font-bold text-teal-dark mb-8">Featured Article</h2>
+            <a href="5-signs-child-needs-speech-therapy.html" class="block bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition group">
+                <div class="md:flex">
+                    <div class="md:w-1/2 bg-gradient-to-br from-teal-light to-teal-dark h-64 md:h-auto flex items-center justify-center">
+                        <svg class="w-24 h-24 text-white/50 group-hover:text-white/70 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+                        </svg>
+                    </div>
+                    <div class="md:w-1/2 p-8">
+                        <div class="flex items-center gap-2 text-sm text-gray-500 mb-3">
+                            <span class="bg-coral/20 text-coral px-3 py-1 rounded-full">Parent Guide</span>
+                            <span>•</span>
+                            <span>10 min read</span>
+                        </div>
+                        <h3 class="text-2xl md:text-3xl font-bold text-teal-dark mb-4 group-hover:text-coral transition">
+                            5 Signs Your Child May Benefit from Speech Therapy
+                        </h3>
+                        <p class="text-gray-600 mb-4">
+                            Understanding the difference between normal development variations and signs that warrant professional evaluation. Learn the key indicators and what to do next.
+                        </p>
+                        <span class="text-coral font-semibold group-hover:underline">Read Article →</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- All Posts -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-2xl font-bold text-teal-dark mb-8">All Articles</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Post 1 -->
+                <article class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition group">
+                    <div class="h-48 bg-gradient-to-br from-coral-light to-coral flex items-center justify-center">
+                        <svg class="w-16 h-16 text-white/70" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/>
+                        </svg>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 text-sm text-gray-500 mb-3">
+                            <span class="bg-coral/20 text-coral px-2 py-0.5 rounded-full text-xs">Getting Started</span>
+                            <span>•</span>
+                            <span>9 min read</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-teal-dark mb-2 group-hover:text-coral transition">
+                            <a href="what-to-expect-first-speech-therapy-evaluation.html">What to Expect at Your First Speech Therapy Evaluation</a>
+                        </h3>
+                        <p class="text-gray-600 text-sm mb-4">
+                            Taking away the mystery and anxiety of your child's first speech assessment. Learn how to prepare and what happens during the visit.
+                        </p>
+                        <a href="what-to-expect-first-speech-therapy-evaluation.html" class="text-coral font-semibold text-sm hover:underline">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Post 2 -->
+                <article class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition group">
+                    <div class="h-48 bg-gradient-to-br from-teal-dark to-teal-light flex items-center justify-center">
+                        <svg class="w-16 h-16 text-white/70" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        </svg>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 text-sm text-gray-500 mb-3">
+                            <span class="bg-teal-dark/20 text-teal-dark px-2 py-0.5 rounded-full text-xs">Park City</span>
+                            <span>•</span>
+                            <span>8 min read</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-teal-dark mb-2 group-hover:text-coral transition">
+                            <a href="speech-therapy-park-city-utah-guide.html">Speech Therapy in Park City, Utah: A Parent's Complete Guide</a>
+                        </h3>
+                        <p class="text-gray-600 text-sm mb-4">
+                            Everything you need to know about finding the right speech therapist for your child in our mountain community.
+                        </p>
+                        <a href="speech-therapy-park-city-utah-guide.html" class="text-coral font-semibold text-sm hover:underline">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Post 3 -->
+                <article class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition group">
+                    <div class="h-48 bg-gradient-to-br from-coral to-coral-light flex items-center justify-center">
+                        <svg class="w-16 h-16 text-white/70" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"/>
+                        </svg>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 text-sm text-gray-500 mb-3">
+                            <span class="bg-coral/20 text-coral px-2 py-0.5 rounded-full text-xs">Orange County</span>
+                            <span>•</span>
+                            <span>9 min read</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-teal-dark mb-2 group-hover:text-coral transition">
+                            <a href="speech-therapist-orange-county-california.html">Finding the Right Speech Therapist in Orange County, CA</a>
+                        </h3>
+                        <p class="text-gray-600 text-sm mb-4">
+                            Your complete guide to navigating speech therapy options in Irvine, Newport Beach, Costa Mesa, and beyond.
+                        </p>
+                        <a href="speech-therapist-orange-county-california.html" class="text-coral font-semibold text-sm hover:underline">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Post 4 - Featured Duplicate for Grid Balance -->
+                <article class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition group">
+                    <div class="h-48 bg-gradient-to-br from-teal-light to-teal-dark flex items-center justify-center">
+                        <svg class="w-16 h-16 text-white/70" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+                        </svg>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 text-sm text-gray-500 mb-3">
+                            <span class="bg-coral/20 text-coral px-2 py-0.5 rounded-full text-xs">Parent Guide</span>
+                            <span>•</span>
+                            <span>10 min read</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-teal-dark mb-2 group-hover:text-coral transition">
+                            <a href="5-signs-child-needs-speech-therapy.html">5 Signs Your Child May Benefit from Speech Therapy</a>
+                        </h3>
+                        <p class="text-gray-600 text-sm mb-4">
+                            Understanding the difference between normal development variations and signs that warrant professional evaluation.
+                        </p>
+                        <a href="5-signs-child-needs-speech-therapy.html" class="text-coral font-semibold text-sm hover:underline">Read More →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="py-12 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-2xl font-bold text-teal-dark mb-8">Browse by Topic</h2>
+            <div class="flex flex-wrap gap-4">
+                <a href="#" class="bg-white border-2 border-teal-dark/20 px-6 py-3 rounded-lg hover:border-coral hover:bg-coral-light/30 transition">
+                    <span class="font-semibold text-teal-dark">Parent Guides</span>
+                    <span class="text-gray-500 text-sm ml-2">(2)</span>
+                </a>
+                <a href="#" class="bg-white border-2 border-teal-dark/20 px-6 py-3 rounded-lg hover:border-coral hover:bg-coral-light/30 transition">
+                    <span class="font-semibold text-teal-dark">Getting Started</span>
+                    <span class="text-gray-500 text-sm ml-2">(1)</span>
+                </a>
+                <a href="#" class="bg-white border-2 border-teal-dark/20 px-6 py-3 rounded-lg hover:border-coral hover:bg-coral-light/30 transition">
+                    <span class="font-semibold text-teal-dark">Park City</span>
+                    <span class="text-gray-500 text-sm ml-2">(1)</span>
+                </a>
+                <a href="#" class="bg-white border-2 border-teal-dark/20 px-6 py-3 rounded-lg hover:border-coral hover:bg-coral-light/30 transition">
+                    <span class="font-semibold text-teal-dark">Orange County</span>
+                    <span class="text-gray-500 text-sm ml-2">(1)</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-16 bg-teal-dark text-white">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">Have Questions About Your Child's Speech?</h2>
+            <p class="text-xl text-gray-200 mb-8">
+                Schedule a free consultation to discuss your concerns with a certified speech-language pathologist.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="../contact.html" class="inline-block bg-coral hover:bg-coral-light hover:text-teal-dark text-white font-semibold px-8 py-4 rounded-lg transition">
+                    Schedule Free Consultation
+                </a>
+                <a href="tel:+15551234567" class="inline-block border-2 border-white hover:bg-white hover:text-teal-dark font-semibold px-8 py-4 rounded-lg transition">
+                    Call (555) 123-4567
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-teal-dark text-white py-16 border-t border-teal-light">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center space-x-3 mb-4">
+                        <svg class="h-8 w-8" viewBox="0 0 100 100" fill="none">
+                            <path d="M25 75L50 35L75 75" stroke="white" stroke-width="3" fill="none"/>
+                            <path d="M35 75L50 50L65 75" stroke="#E8A68C" stroke-width="2" fill="none"/>
+                        </svg>
+                        <div>
+                            <span class="text-lg font-bold">Clear Sky</span>
+                            <span class="block text-xs tracking-widest text-coral">SPEECH THERAPY</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 text-sm">Clear communication starts here.</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Services</h4>
+                    <ul class="space-y-2 text-gray-300 text-sm">
+                        <li><a href="../services/language-therapy.html" class="hover:text-coral">Language Therapy</a></li>
+                        <li><a href="../services/cognitive-communication.html" class="hover:text-coral">Cognitive-Communication</a></li>
+                        <li><a href="../services/swallowing-therapy.html" class="hover:text-coral">Swallowing Therapy</a></li>
+                        <li><a href="../services/articulation-therapy.html" class="hover:text-coral">Articulation Therapy</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Locations</h4>
+                    <ul class="space-y-2 text-gray-300 text-sm">
+                        <li><a href="../locations/park-city-utah.html" class="hover:text-coral">Park City, Utah</a></li>
+                        <li><a href="../locations/orange-county-california.html" class="hover:text-coral">Orange County, CA</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Contact</h4>
+                    <ul class="space-y-2 text-gray-300 text-sm">
+                        <li>📞 (555) 123-4567</li>
+                        <li>✉️ info@clearskyspeech.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-teal-light mt-12 pt-8 text-center text-gray-400 text-sm">
+                <p>© 2026 Clear Sky Speech Therapy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
