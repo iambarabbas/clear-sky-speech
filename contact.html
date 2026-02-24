@@ -74,14 +74,32 @@
                     <img src="images/logo.png" alt="Clear Sky Speech Therapy" class="h-14 w-auto">
                 </a>
                 
-                <a href="tel:+14355651691" class="md:hidden bg-coral px-4 py-2 rounded-lg font-semibold">
-                    <svg class="w-5 h-5 inline-block mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg> Call Now
-                </a>
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center gap-2">
+                    <a href="tel:+14355651691" class="bg-coral px-3 py-2 rounded-lg font-semibold text-sm">
+                        <svg class="w-5 h-5 inline-block mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg> Call
+                    </a>
+                    <button id="mobile-menu-btn" class="p-2">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
                 
+                <!-- Desktop Navigation -->
                 <div class="hidden md:flex items-center space-x-8">
-                    <a href="/" class="hover:text-coral transition">Home</a>
+                    <a href="/" class="text-coral">Home</a>
                     <a href="about.html" class="hover:text-coral transition">About</a>
-                    <a href="services.html" class="hover:text-coral transition">Services</a>
+                    <div class="relative group">
+                        <a href="services.html" class="hover:text-coral transition">Services</a>
+                        <div class="absolute hidden group-hover:block bg-white text-teal-dark rounded-lg shadow-xl py-2 w-64 top-full left-0">
+                            <a href="services/language-therapy.html" class="block px-4 py-2 hover:bg-coral-light">Language Therapy</a>
+                            <a href="services/cognitive-communication.html" class="block px-4 py-2 hover:bg-coral-light">Cognitive-Communication</a>
+                            <a href="services/swallowing-therapy.html" class="block px-4 py-2 hover:bg-coral-light">Swallowing Therapy</a>
+                            <a href="services/articulation-therapy.html" class="block px-4 py-2 hover:bg-coral-light">Articulation Therapy</a>
+                            <a href="services/reading-therapy.html" class="block px-4 py-2 hover:bg-coral-light">Reading Therapy</a>
+                        </div>
+                    </div>
                     <div class="relative group">
                         <span class="hover:text-coral transition cursor-pointer">Locations</span>
                         <div class="absolute hidden group-hover:block bg-white text-teal-dark rounded-lg shadow-xl py-2 w-48 top-full left-0">
@@ -99,6 +117,22 @@
                         <svg class="w-5 h-5 inline-block mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg> 435-565-1691
                     </a>
                 </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Navigation -->
+        <div id="mobile-menu" class="hidden md:hidden bg-teal-light">
+            <div class="px-4 py-4 space-y-3">
+                <a href="/" class="block py-2 text-coral">Home</a>
+                <a href="about.html" class="block py-2 hover:text-coral">About</a>
+                <a href="services.html" class="block py-2 hover:text-coral">Services</a>
+                <a href="locations/park-city-utah.html" class="block py-2 hover:text-coral pl-4">↳ Park City</a>
+                <a href="locations/heber-city-utah.html" class="block py-2 hover:text-coral pl-4">↳ Heber City</a>
+                <a href="locations/midway-utah.html" class="block py-2 hover:text-coral pl-4">↳ Midway</a>
+                <a href="process.html" class="block py-2 hover:text-coral">Process</a>
+                <a href="faq.html" class="block py-2 hover:text-coral">FAQ</a>
+                <a href="blog/" class="block py-2 hover:text-coral">Blog</a>
+                <a href="tel:+14355651691" class="block py-3 bg-coral rounded px-4 text-center font-semibold"><svg class="w-5 h-5 inline-block mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg> Call 435-565-1691</a>
             </div>
         </div>
     </nav>
