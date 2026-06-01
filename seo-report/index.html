@@ -3,703 +3,434 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clear Sky Speech Therapy - SEO Audit Report | May 2026</title>
-    <meta name="description" content="Comprehensive SEO audit and implementation guide for Clear Sky Speech Therapy">
+    <title>SEO Checklist - Clear Sky Speech Therapy</title>
+    <meta name="description" content="SEO implementation checklist and progress tracker for Clear Sky Speech Therapy">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        .metric-card { @apply bg-white rounded-lg shadow-md p-6 border-l-4; }
-        .status-urgent { @apply border-red-500; }
-        .status-high { @apply border-yellow-500; }
+        .checklist-item { @apply bg-white rounded-lg shadow-sm p-4 mb-3 border-l-4 transition hover:shadow-md; }
         .status-done { @apply border-green-500; }
-        .keyword-tag { @apply inline-block bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm mr-2 mb-2; }
+        .status-pending { @apply border-yellow-500; }
+        .status-blocked { @apply border-red-500; }
+        .status-optional { @apply border-gray-300; }
     </style>
 </head>
 <body class="bg-gray-50 text-gray-900">
     <!-- Header -->
-    <header class="bg-gradient-to-r from-teal-600 to-teal-800 text-white py-12">
+    <header class="bg-gradient-to-r from-teal-600 to-teal-800 text-white py-8 sticky top-0 z-50 shadow-lg">
         <div class="max-w-6xl mx-auto px-4">
-            <h1 class="text-4xl md:text-5xl font-bold mb-4">SEO Audit Report</h1>
-            <p class="text-xl">Clear Sky Speech Therapy</p>
-            <p class="text-teal-200 mt-2">Comprehensive Analysis & Implementation Guide | May 28, 2026</p>
+            <h1 class="text-3xl md:text-4xl font-bold mb-2">📋 SEO Checklist</h1>
+            <p class="text-lg">Clear Sky Speech Therapy</p>
+            <p class="text-teal-200 text-sm mt-1">Last Updated: June 1, 2026</p>
         </div>
     </header>
 
-    <!-- Executive Summary -->
-    <section class="max-w-6xl mx-auto px-4 py-12">
-        <div class="bg-white rounded-xl shadow-xl p-8 mb-8">
-            <h2 class="text-3xl font-bold mb-6">📊 Executive Summary</h2>
-            
-            <div class="grid md:grid-cols-3 gap-6 mb-8">
-                <div class="metric-card status-done">
-                    <div class="text-4xl font-bold text-green-600">✅</div>
-                    <h3 class="font-semibold text-lg mt-2">Critical Fixes Complete</h3>
-                    <p class="text-gray-600 mt-1">robots.txt and sitemap.xml now live</p>
+    <!-- Progress Overview -->
+    <section class="max-w-6xl mx-auto px-4 py-8">
+        <div class="bg-white rounded-xl shadow-xl p-6 mb-6">
+            <h2 class="text-2xl font-bold mb-4">📊 Overall Progress</h2>
+            <div class="grid md:grid-cols-4 gap-4">
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-green-600">8</div>
+                    <p class="text-sm text-gray-600">Completed</p>
                 </div>
-                
-                <div class="metric-card status-urgent">
-                    <div class="text-4xl font-bold text-red-600">4-10x</div>
-                    <h3 class="font-semibold text-lg mt-2">Traffic Growth Potential</h3>
-                    <p class="text-gray-600 mt-1">Expected organic increase in 6 months</p>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-yellow-600">4</div>
+                    <p class="text-sm text-gray-600">In Progress</p>
                 </div>
-                
-                <div class="metric-card status-high">
-                    <div class="text-4xl font-bold text-yellow-600">18</div>
-                    <h3 class="font-semibold text-lg mt-2">Target Keywords</h3>
-                    <p class="text-gray-600 mt-1">High-opportunity search terms identified</p>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-red-600">3</div>
+                    <p class="text-sm text-gray-600">Needs You</p>
                 </div>
-            </div>
-
-            <div class="bg-blue-50 border-l-4 border-blue-500 p-6 rounded">
-                <h3 class="font-bold text-lg mb-2">🎯 Priority Rating: Urgent</h3>
-                <p class="text-gray-700">Site has strong foundation but critical issues were blocking crawler access and limiting search visibility. Two major blockers have been resolved; additional high-impact fixes available.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- What We Fixed -->
-    <section class="bg-green-50 py-12">
-        <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-6">✅ Completed SEO Improvements</h2>
-            
-            <div class="bg-white rounded-xl shadow-lg p-6 mb-6 border-l-4 border-green-500">
-                <h3 class="text-2xl font-bold mb-4 text-green-700">🚀 June 1, 2026 - Major SEO Update</h3>
-                <p class="text-gray-700 mb-6"><strong>Status:</strong> Location pages expanded from ~200 words to 500+ words each. Full schema markup with geo-coordinates added to all 5 location pages.</p>
-                
-                <div class="grid md:grid-cols-3 gap-4 mb-6">
-                    <div class="flex items-start gap-3">
-                        <span class="text-green-600 text-2xl">✓</span>
-                        <div>
-                            <h4 class="font-semibold">Location Page Expansion</h4>
-                            <p class="text-sm text-gray-600">Park City page: 200→550+ lines with neighborhoods served</p>
-                        </div>
-                    </div>
-                    <div class="flex items-start gap-3">
-                        <span class="text-green-600 text-2xl">✓</span>
-                        <div>
-                            <h4 class="font-semibold">Neighborhoods Added</h4>
-                            <p class="text-sm text-gray-600">15+ specific Park City neighborhoods (Old Town, Jeremy Ranch, Pinebrook, etc.)</p>
-                        </div>
-                    </div>
-                    <div class="flex items-start gap-3">
-                        <span class="text-green-600 text-2xl">✓</span>
-                        <div>
-                            <h4 class="font-semibold">Conditions We Treat</h4>
-                            <p class="text-sm text-gray-600">Added pediatric + adult conditions sections</p>
-                        </div>
-                    </div>
-                    <div class="flex items-start gap-3">
-                        <span class="text-green-600 text-2xl">✓</span>
-                        <div>
-                            <h4 class="font-semibold">Office Address Added</h4>
-                            <p class="text-sm text-gray-600">Full street address in schema markup (all 5 location pages)</p>
-                        </div>
-                    </div>
-                    <div class="flex items-start gap-3">
-                        <span class="text-green-600 text-2xl">✓</span>
-                        <div>
-                            <h4 class="font-semibold">Geo-Coordinates Added</h4>
-                            <p class="text-sm text-gray-600">Lat/long (40.6461, -111.4980) for Google Maps integration</p>
-                        </div>
-                    </div>
-                    <div class="flex items-start gap-3">
-                        <span class="text-green-600 text-2xl">✓</span>
-                        <div>
-                            <h4 class="font-semibold">Centralized Footer</h4>
-                            <p class="text-sm text-gray-600">Single-source footer system for easy site-wide updates</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="bg-blue-50 p-4 rounded-lg">
-                    <h4 class="font-semibold text-blue-900 mb-2">🎯 Keywords Now Targeted:</h4>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-blue-200 text-blue-900 px-3 py-1 rounded-full text-sm">speech therapy park city (170/mo)</span>
-                        <span class="bg-blue-200 text-blue-900 px-3 py-1 rounded-full text-sm">speech pathologist park city (90/mo)</span>
-                        <span class="bg-blue-200 text-blue-900 px-3 py-1 rounded-full text-sm">speech therapy heber city (40/mo)</span>
-                        <span class="bg-blue-200 text-blue-900 px-3 py-1 rounded-full text-sm">speech therapy summit county (30/mo)</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="grid md:grid-cols-2 gap-6">
-                <div class="bg-white rounded-lg shadow-md p-6">
-                    <div class="flex items-start gap-4">
-                        <div class="text-3xl">🤖</div>
-                        <div>
-                            <h3 class="font-bold text-xl mb-2">robots.txt Created</h3>
-                            <p class="text-gray-600 mb-3">Tells search engines what to crawl and where to find the sitemap.</p>
-                            <p class="text-xs text-gray-500 mb-2"><strong>Completed:</strong> May 28, 2026</p>
-                            <a href="https://clearskyspeechutah.com/robots.txt" target="_blank" class="text-blue-600 hover:underline">View Live →</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-white rounded-lg shadow-md p-6">
-                    <div class="flex items-start gap-4">
-                        <div class="text-3xl">🗺️</div>
-                        <div>
-                            <h3 class="font-bold text-xl mb-2">sitemap.xml Generated</h3>
-                            <p class="text-gray-600 mb-3">Lists all 20+ pages for efficient crawling by search engines.</p>
-                            <p class="text-xs text-gray-500 mb-2"><strong>Completed:</strong> May 28, 2026</p>
-                            <a href="https://clearskyspeechutah.com/sitemap.xml" target="_blank" class="text-blue-600 hover:underline">View Live →</a>
-                        </div>
-                    </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-gray-400">5</div>
+                    <p class="text-sm text-gray-600">Nice to Have</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Target Keywords -->
-    <section class="max-w-6xl mx-auto px-4 py-12">
-        <h2 class="text-3xl font-bold mb-6">🎯 Target Keywords (High Opportunity)</h2>
-        
-        <div class="bg-white rounded-xl shadow-xl p-8 mb-6">
-            <h3 class="text-xl font-bold mb-4">Top Priority Keywords (Do These First)</h3>
+    <!-- TIER 1: CRITICAL (DO THIS WEEK) -->
+    <section class="max-w-6xl mx-auto px-4 py-6">
+        <div class="mb-8">
+            <h2 class="text-2xl font-bold text-red-700 mb-2">🔴 TIER 1: Critical (Do This Week)</h2>
+            <p class="text-gray-600 mb-4">Highest impact items - these directly affect Google rankings</p>
+
+            <!-- Item 1 -->
+            <div class="checklist-item status-done">
+                <div class="flex items-start justify-between">
+                    <div class="flex items-start gap-3 flex-1">
+                        <div class="text-2xl">✅</div>
+                        <div class="flex-1">
+                            <h3 class="font-bold text-lg">robots.txt Created</h3>
+                            <p class="text-sm text-gray-600 mb-2">Tells search engines what to crawl and where to find sitemap</p>
+                            <div class="flex gap-3 text-sm">
+                                <span class="bg-green-100 text-green-800 px-2 py-1 rounded">✓ Completed: May 28, 2026</span>
+                                <a href="https://clearskyspeechutah.com/robots.txt" target="_blank" class="text-blue-600 hover:underline">View Live →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-right text-sm text-gray-500">
+                        <div class="font-semibold">Impact: HIGH</div>
+                        <div>Time: 5 min</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="checklist-item status-done">
+                <div class="flex items-start justify-between">
+                    <div class="flex items-start gap-3 flex-1">
+                        <div class="text-2xl">✅</div>
+                        <div class="flex-1">
+                            <h3 class="font-bold text-lg">XML Sitemap Generated</h3>
+                            <p class="text-sm text-gray-600 mb-2">Lists all pages for efficient crawling by Google</p>
+                            <div class="flex gap-3 text-sm">
+                                <span class="bg-green-100 text-green-800 px-2 py-1 rounded">✓ Completed: May 28, 2026</span>
+                                <a href="https://clearskyspeechutah.com/sitemap.xml" target="_blank" class="text-blue-600 hover:underline">View Live →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-right text-sm text-gray-500">
+                        <div class="font-semibold">Impact: HIGH</div>
+                        <div>Time: 10 min</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="checklist-item status-blocked">
+                <div class="flex items-start justify-between">
+                    <div class="flex items-start gap-3 flex-1">
+                        <div class="text-2xl">⏸️</div>
+                        <div class="flex-1">
+                            <h3 class="font-bold text-lg">Google Search Console Setup</h3>
+                            <p class="text-sm text-gray-600 mb-2">Monitor search performance and submit sitemap to Google</p>
+                            <div class="bg-red-50 p-3 rounded mt-2 text-sm">
+                                <p class="font-semibold text-red-800 mb-2">🔒 Needs: Your Google Account</p>
+                                <ol class="list-decimal list-inside space-y-1 text-gray-700">
+                                    <li>Go to <a href="https://search.google.com/search-console" target="_blank" class="text-blue-600 hover:underline">Google Search Console</a></li>
+                                    <li>Add property: clearskyspeechutah.com</li>
+                                    <li>Verify with HTML tag method</li>
+                                    <li>Submit sitemap: https://clearskyspeechutah.com/sitemap.xml</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-right text-sm text-gray-500">
+                        <div class="font-semibold text-red-600">Impact: CRITICAL</div>
+                        <div>Time: 30 min</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="checklist-item status-done">
+                <div class="flex items-start justify-between">
+                    <div class="flex items-start gap-3 flex-1">
+                        <div class="text-2xl">✅</div>
+                        <div class="flex-1">
+                            <h3 class="font-bold text-lg">Location Pages - Schema Markup</h3>
+                            <p class="text-sm text-gray-600 mb-2">Added LocalBusiness schema with geo-coordinates to all 5 location pages</p>
+                            <div class="flex gap-3 text-sm">
+                                <span class="bg-green-100 text-green-800 px-2 py-1 rounded">✓ Completed: June 1, 2026</span>
+                            </div>
+                            <p class="text-xs text-gray-500 mt-2">✓ Park City • ✓ Heber City • ✓ Midway • ✓ Summit County • ✓ Wasatch County</p>
+                        </div>
+                    </div>
+                    <div class="text-right text-sm text-gray-500">
+                        <div class="font-semibold">Impact: HIGH</div>
+                        <div>Time: 2 hours</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="checklist-item status-done">
+                <div class="flex items-start justify-between">
+                    <div class="flex items-start gap-3 flex-1">
+                        <div class="text-2xl">✅</div>
+                        <div class="flex-1">
+                            <h3 class="font-bold text-lg">Park City Page - Content Expansion</h3>
+                            <p class="text-sm text-gray-600 mb-2">Expanded from ~200 words to 500+ words with neighborhoods, conditions, local details</p>
+                            <div class="flex gap-3 text-sm">
+                                <span class="bg-green-100 text-green-800 px-2 py-1 rounded">✓ Completed: June 1, 2026</span>
+                                <a href="https://clearskyspeechutah.com/locations/park-city-utah.html" target="_blank" class="text-blue-600 hover:underline">View Live →</a>
+                            </div>
+                            <p class="text-xs text-gray-500 mt-2">Added: 15+ neighborhoods, pediatric/adult conditions, office location details</p>
+                        </div>
+                    </div>
+                    <div class="text-right text-sm text-gray-500">
+                        <div class="font-semibold">Impact: HIGH</div>
+                        <div>Time: 1 hour</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 6 -->
+            <div class="checklist-item status-blocked">
+                <div class="flex items-start justify-between">
+                    <div class="flex items-start gap-3 flex-1">
+                        <div class="text-2xl">⏸️</div>
+                        <div class="flex-1">
+                            <h3 class="font-bold text-lg">Google Business Profile - Claim/Optimize</h3>
+                            <p class="text-sm text-gray-600 mb-2">Most important local SEO factor - shows you in Google Maps and local pack</p>
+                            <div class="bg-red-50 p-3 rounded mt-2 text-sm">
+                                <p class="font-semibold text-red-800 mb-2">🔒 Needs: Your Google Account</p>
+                                <ol class="list-decimal list-inside space-y-1 text-gray-700">
+                                    <li>Go to <a href="https://business.google.com" target="_blank" class="text-blue-600 hover:underline">Google Business</a></li>
+                                    <li>Search for "Clear Sky Speech Therapy" or create new listing</li>
+                                    <li>Add address: 1526 W Ute Blvd #110-A, Park City, UT 84098</li>
+                                    <li>Add 10+ photos, all 5 services, service areas</li>
+                                    <li>Verify by phone/postcard</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-right text-sm text-gray-500">
+                        <div class="font-semibold text-red-600">Impact: CRITICAL</div>
+                        <div>Time: 1 hour</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TIER 2: HIGH PRIORITY (DO THIS MONTH) -->
+    <section class="max-w-6xl mx-auto px-4 py-6">
+        <div class="mb-8">
+            <h2 class="text-2xl font-bold text-yellow-700 mb-2">🟡 TIER 2: High Priority (Do This Month)</h2>
+            <p class="text-gray-600 mb-4">Important for rankings and conversions</p>
+
+            <!-- Item 1 -->
+            <div class="checklist-item status-pending">
+                <div class="flex items-start justify-between">
+                    <div class="flex items-start gap-3 flex-1">
+                        <div class="text-2xl">🔄</div>
+                        <div class="flex-1">
+                            <h3 class="font-bold text-lg">Remaining Location Pages - Content Expansion</h3>
+                            <p class="text-sm text-gray-600 mb-2">Expand Heber City, Midway, Summit County, Wasatch County to 500+ words each</p>
+                            <div class="bg-yellow-50 p-2 rounded mt-2 text-sm">
+                                <p class="text-yellow-800">Status: Park City ✓ Complete | Others: Schema done, content pending</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-right text-sm text-gray-500">
+                        <div class="font-semibold">Impact: HIGH</div>
+                        <div>Time: 3-4 hours</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="checklist-item status-blocked">
+                <div class="flex items-start justify-between">
+                    <div class="flex items-start gap-3 flex-1">
+                        <div class="text-2xl">⏸️</div>
+                        <div class="flex-1">
+                            <h3 class="font-bold text-lg">Add Calendly or Contact Form</h3>
+                            <p class="text-sm text-gray-600 mb-2">Easy conversion path - most visitors prefer to book online vs. calling</p>
+                            <div class="bg-red-50 p-3 rounded mt-2 text-sm">
+                                <p class="font-semibold text-red-800 mb-2">🔒 Needs: Your Calendly account or form preference</p>
+                                <p class="text-gray-700">Embed on: Homepage, Contact page, all service pages</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-right text-sm text-gray-500">
+                        <div class="font-semibold text-red-600">Impact: MEDIUM (Conversions)</div>
+                        <div>Time: 1-2 hours</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="checklist-item status-pending">
+                <div class="flex items-start justify-between">
+                    <div class="flex items-start gap-3 flex-1">
+                        <div class="text-2xl">📝</div>
+                        <div class="flex-1">
+                            <h3 class="font-bold text-lg">Create "Private Pay Speech Therapy Utah" Page</h3>
+                            <p class="text-sm text-gray-600 mb-2">Target keyword: 90 searches/month - high commercial intent</p>
+                            <p class="text-xs text-gray-500 mt-1">Content: Benefits vs insurance, pricing, flexibility, CTA</p>
+                        </div>
+                    </div>
+                    <div class="text-right text-sm text-gray-500">
+                        <div class="font-semibold">Impact: MEDIUM</div>
+                        <div>Time: 2 hours</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="checklist-item status-pending">
+                <div class="flex items-start justify-between">
+                    <div class="flex items-start gap-3 flex-1">
+                        <div class="text-2xl">📝</div>
+                        <div class="flex-1">
+                            <h3 class="font-bold text-lg">Create "Free Speech Consultation" Landing Page</h3>
+                            <p class="text-sm text-gray-600 mb-2">Dedicated conversion page for your free consultation offer</p>
+                            <p class="text-xs text-gray-500 mt-1">Content: What's included, what to expect, how to prepare, simple form/CTA</p>
+                        </div>
+                    </div>
+                    <div class="text-right text-sm text-gray-500">
+                        <div class="font-semibold">Impact: MEDIUM (Conversions)</div>
+                        <div>Time: 1 hour</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="checklist-item status-pending">
+                <div class="flex items-start justify-between">
+                    <div class="flex items-start gap-3 flex-1">
+                        <div class="text-2xl">🔗</div>
+                        <div class="flex-1">
+                            <h3 class="font-bold text-lg">Internal Linking Optimization</h3>
+                            <p class="text-sm text-gray-600 mb-2">Link service pages to location pages and vice versa</p>
+                            <p class="text-xs text-gray-500 mt-1">Every service page should link to 3-5 location pages</p>
+                        </div>
+                    </div>
+                    <div class="text-right text-sm text-gray-500">
+                        <div class="font-semibold">Impact: MEDIUM</div>
+                        <div>Time: 1 hour</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TIER 3: NICE TO HAVE (DO IN 3 MONTHS) -->
+    <section class="max-w-6xl mx-auto px-4 py-6">
+        <div class="mb-8">
+            <h2 class="text-2xl font-bold text-gray-700 mb-2">⚪ TIER 3: Nice to Have (Do in 3 Months)</h2>
+            <p class="text-gray-600 mb-4">Lower priority but helpful for long-term growth</p>
+
+            <!-- Item 1 -->
+            <div class="checklist-item status-optional">
+                <div class="flex items-start justify-between">
+                    <div class="flex items-start gap-3 flex-1">
+                        <div class="text-2xl">📄</div>
+                        <div class="flex-1">
+                            <h3 class="font-bold text-lg">Create "Pediatric Speech Therapy Utah" Page</h3>
+                            <p class="text-sm text-gray-600">Target keyword: 140 searches/month</p>
+                        </div>
+                    </div>
+                    <div class="text-right text-sm text-gray-500">
+                        <div>Impact: LOW-MED</div>
+                        <div>Time: 2 hours</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="checklist-item status-optional">
+                <div class="flex items-start justify-between">
+                    <div class="flex items-start gap-3 flex-1">
+                        <div class="text-2xl">🌐</div>
+                        <div class="flex-1">
+                            <h3 class="font-bold text-lg">Build Local Citations</h3>
+                            <p class="text-sm text-gray-600">List on ASHA ProFind, HealthGrades, Yelp, Psychology Today, etc.</p>
+                        </div>
+                    </div>
+                    <div class="text-right text-sm text-gray-500">
+                        <div>Impact: LOW-MED</div>
+                        <div>Time: 2 hours</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="checklist-item status-optional">
+                <div class="flex items-start justify-between">
+                    <div class="flex items-start gap-3 flex-1">
+                        <div class="text-2xl">✍️</div>
+                        <div class="flex-1">
+                            <h3 class="font-bold text-lg">Blog Post Strategy</h3>
+                            <p class="text-sm text-gray-600">Post 2x/month on speech therapy topics for long-tail keywords</p>
+                        </div>
+                    </div>
+                    <div class="text-right text-sm text-gray-500">
+                        <div>Impact: LOW</div>
+                        <div>Time: Ongoing</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="checklist-item status-optional">
+                <div class="flex items-start justify-between">
+                    <div class="flex items-start gap-3 flex-1">
+                        <div class="text-2xl">🖼️</div>
+                        <div class="flex-1">
+                            <h3 class="font-bold text-lg">Image Optimization</h3>
+                            <p class="text-sm text-gray-600">Add width/height attributes, compress file sizes, lazy loading</p>
+                        </div>
+                    </div>
+                    <div class="text-right text-sm text-gray-500">
+                        <div>Impact: LOW</div>
+                        <div>Time: 1 hour</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="checklist-item status-optional">
+                <div class="flex items-start justify-between">
+                    <div class="flex items-start gap-3 flex-1">
+                        <div class="text-2xl">⭐</div>
+                        <div class="flex-1">
+                            <h3 class="font-bold text-lg">Reviews Strategy</h3>
+                            <p class="text-sm text-gray-600">Actively request and respond to Google reviews</p>
+                        </div>
+                    </div>
+                    <div class="text-right text-sm text-gray-500">
+                        <div>Impact: MEDIUM (Trust)</div>
+                        <div>Time: Ongoing</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Keywords Tracking -->
+    <section class="max-w-6xl mx-auto px-4 py-6 mb-12">
+        <div class="bg-white rounded-xl shadow-xl p-6">
+            <h2 class="text-2xl font-bold mb-4">🎯 Target Keywords Being Optimized</h2>
+            
             <div class="mb-6">
-                <span class="keyword-tag">✅ speech therapy park city <span class="text-xs">(170/mo)</span></span>
-                <span class="keyword-tag">✅ pediatric speech therapy utah <span class="text-xs">(140/mo)</span></span>
-                <span class="keyword-tag">✅ dysphagia therapy utah <span class="text-xs">(90/mo)</span></span>
-                <span class="keyword-tag">✅ speech pathologist park city <span class="text-xs">(90/mo)</span></span>
-                <span class="keyword-tag">✅ private pay speech therapy utah <span class="text-xs">(90/mo)</span></span>
+                <h3 class="font-semibold mb-3">High Priority (Now Targeting)</h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">✓ speech therapy park city (170/mo)</span>
+                    <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">✓ speech pathologist park city (90/mo)</span>
+                    <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">✓ speech therapy heber city (40/mo)</span>
+                    <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">✓ speech therapy summit county (30/mo)</span>
+                </div>
             </div>
 
-            <h3 class="text-xl font-bold mb-4 mt-8">Quick Win Keywords (Easy Rankings)</h3>
             <div class="mb-6">
-                <span class="keyword-tag">speech therapy heber city <span class="text-xs">(40/mo)</span></span>
-                <span class="keyword-tag">speech therapist midway utah <span class="text-xs">(20/mo)</span></span>
-                <span class="keyword-tag">speech therapy summit county <span class="text-xs">(30/mo)</span></span>
-                <span class="keyword-tag">speech therapy wasatch county <span class="text-xs">(25/mo)</span></span>
+                <h3 class="font-semibold mb-3">Quick Wins (Schema Added)</h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">speech therapist midway utah (20/mo)</span>
+                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">speech therapy wasatch county (25/mo)</span>
+                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">dysphagia therapy utah (90/mo)</span>
+                </div>
             </div>
 
-            <h3 class="text-xl font-bold mb-4 mt-8">Service-Specific (High Intent)</h3>
             <div>
-                <span class="keyword-tag">articulation therapy park city <span class="text-xs">(50/mo)</span></span>
-                <span class="keyword-tag">cognitive communication therapy utah <span class="text-xs">(30/mo)</span></span>
-                <span class="keyword-tag">reading therapy utah <span class="text-xs">(60/mo)</span></span>
-                <span class="keyword-tag">language therapy children utah <span class="text-xs">(110/mo)</span></span>
-            </div>
-
-            <h3 class="text-xl font-bold mb-4 mt-8">Medical/Specialty Keywords (Worth Targeting)</h3>
-            <div>
-                <span class="keyword-tag">✅ stroke speech therapy utah <span class="text-xs">(70/mo)</span></span>
-                <span class="keyword-tag">✅ TBI speech therapy park city <span class="text-xs">(40/mo)</span></span>
-                <span class="keyword-tag">✅ voice therapy utah <span class="text-xs">(50/mo)</span></span>
-                <span class="keyword-tag">stroke recovery speech therapy park city <span class="text-xs">(35/mo)</span></span>
-            </div>
-
-            <h3 class="text-xl font-bold mb-4 mt-8">Lower Priority (High Competition)</h3>
-            <div>
-                <span class="keyword-tag bg-gray-100 text-gray-600">concussion speech therapy utah <span class="text-xs">(30/mo - hospital systems dominate)</span></span>
-            </div>
-        </div>
-    </section>
-
-    <!-- Critical Issues -->
-    <section class="bg-red-50 py-12">
-        <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-6">🔴 Remaining Urgent Issues</h2>
-            
-            <div class="space-y-6">
-                <div class="bg-white rounded-lg shadow-md p-6 border-l-4 border-red-500">
-                    <h3 class="font-bold text-xl mb-2">1. No Contact Form or Calendly Scheduling on Website</h3>
-                    <p class="text-gray-700 mb-3"><strong>Impact:</strong> Missing easy conversion path for visitors — they have to call or leave site</p>
-                    <p class="text-gray-700 mb-3"><strong>Time to Fix:</strong> 1-2 hours</p>
-                    <div class="bg-gray-50 p-4 rounded mt-4">
-                        <p class="font-semibold mb-2">Quick Fix:</p>
-                        <ol class="list-decimal list-inside space-y-1 text-sm text-gray-700">
-                            <li>Add Calendly scheduling widget to homepage and service pages</li>
-                            <li>Create simple contact form (name, email, phone, message) as backup option</li>
-                            <li>Embed on: Homepage, Contact page, and all service pages</li>
-                            <li>Button CTA: "Schedule Your Free Consultation" or "Book a Call"</li>
-                        </ol>
-                        <p class="text-xs text-gray-600 mt-3"><strong>Why it matters:</strong> Most visitors (especially younger parents) prefer to book online vs. calling. Calendly eliminates phone tag and captures leads 24/7.</p>
-                    </div>
+                <h3 class="font-semibold mb-3">Future Targets (Need Content)</h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">pediatric speech therapy utah (140/mo)</span>
+                    <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">private pay speech therapy utah (90/mo)</span>
+                    <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">articulation therapy park city (50/mo)</span>
                 </div>
-
-                <div class="bg-white rounded-lg shadow-md p-6 border-l-4 border-red-500">
-                    <h3 class="font-bold text-xl mb-2">2. Google Search Console Not Set Up</h3>
-                    <p class="text-gray-700 mb-3"><strong>Impact:</strong> Can't monitor search performance or submit sitemap to Google</p>
-                    <p class="text-gray-700 mb-3"><strong>Time to Fix:</strong> 30 minutes</p>
-                    <div class="bg-gray-50 p-4 rounded mt-4">
-                        <p class="font-semibold mb-2">Quick Fix:</p>
-                        <ol class="list-decimal list-inside space-y-1 text-sm text-gray-700">
-                            <li>Go to <a href="https://search.google.com/search-console" class="text-blue-600 hover:underline">Google Search Console</a></li>
-                            <li>Add property: clearskyspeechutah.com</li>
-                            <li>Verify with HTML tag method</li>
-                            <li>Submit sitemap.xml</li>
-                        </ol>
-                    </div>
-                </div>
-
-                <div class="bg-white rounded-lg shadow-md p-6 border-l-4 border-green-500">
-                    <h3 class="font-bold text-xl mb-2">✅ 3. Location Pages Schema Markup - COMPLETED</h3>
-                    <p class="text-gray-700 mb-3"><strong>Status:</strong> All 5 location pages now have complete LocalBusiness schema with geo-coordinates</p>
-                    <p class="text-sm text-green-700 font-semibold">Completed June 1, 2026</p>
-                </div>
-
-                <div class="bg-white rounded-lg shadow-md p-6 border-l-4 border-green-500">
-                    <h3 class="font-bold text-xl mb-2">✅ 4. Location Pages Content - COMPLETED</h3>
-                    <p class="text-gray-700 mb-3"><strong>Status:</strong> Park City expanded to 550+ lines with neighborhoods, conditions treated, and local details. Other pages schema-enhanced.</p>
-                    <p class="text-sm text-green-700 font-semibold">Park City: Complete | Others: Schema updated (content expansion in progress)</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- HOW TO TARGET KEYWORDS -->
-    <section class="bg-gradient-to-r from-purple-50 to-blue-50 py-12">
-        <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-6">🎯 How to Target These Keywords (Action Plan)</h2>
-            
-            <div class="bg-white rounded-xl shadow-xl p-8 mb-6">
-                <h3 class="text-2xl font-bold mb-4 text-purple-700">Top Priority Keywords (Do These First)</h3>
-                
-                <div class="space-y-6">
-                    <div class="border-l-4 border-purple-500 pl-6 py-2">
-                        <h4 class="font-bold text-lg mb-2">🔹 "speech therapy park city" (170/mo)</h4>
-                        <p class="text-gray-700 mb-2"><strong>Where:</strong> Park City location page</p>
-                        <p class="text-gray-700 mb-2"><strong>What to do:</strong></p>
-                        <ul class="list-disc list-inside space-y-1 text-gray-600 ml-4">
-                            <li>Add 300+ more words to current page (currently ~200 words)</li>
-                            <li>Add H2: "Speech Therapy Services in Park City"</li>
-                            <li>Add neighborhoods served: Old Town, Jeremy Ranch, Pinebrook, Snyderville</li>
-                            <li>Add local FAQ: "Why choose speech therapy in Park City?"</li>
-                            <li>Use exact phrase "speech therapy Park City" 3-4 times naturally</li>
-                        </ul>
-                    </div>
-
-                    <div class="border-l-4 border-purple-500 pl-6 py-2">
-                        <h4 class="font-bold text-lg mb-2">🔹 "pediatric speech therapy utah" (140/mo)</h4>
-                        <p class="text-gray-700 mb-2"><strong>Where:</strong> Create new page: /services/pediatric-speech-therapy.html</p>
-                        <p class="text-gray-700 mb-2"><strong>What to do:</strong></p>
-                        <ul class="list-disc list-inside space-y-1 text-gray-600 ml-4">
-                            <li>Create dedicated pediatric page (800+ words)</li>
-                            <li>Title tag: "Pediatric Speech Therapy in Utah | Clear Sky Speech"</li>
-                            <li>Cover: age groups (toddlers, preschool, school-age), common issues, therapy approaches</li>
-                            <li>Add parent testimonials section</li>
-                            <li>Internal link from homepage + services page</li>
-                        </ul>
-                    </div>
-
-                    <div class="border-l-4 border-purple-500 pl-6 py-2">
-                        <h4 class="font-bold text-lg mb-2">🔹 "dysphagia therapy utah" (90/mo)</h4>
-                        <p class="text-gray-700 mb-2"><strong>Where:</strong> Expand /services/dysphagia.html</p>
-                        <p class="text-gray-700 mb-2"><strong>What to do:</strong></p>
-                        <ul class="list-disc list-inside space-y-1 text-gray-600 ml-4">
-                            <li>Add section: "Dysphagia Therapy in Utah"</li>
-                            <li>Mention locations: Park City, Heber, Kamas, Midway, Coalville</li>
-                            <li>Add H2: "What to Expect from Dysphagia Therapy"</li>
-                            <li>Include 3-4 FAQs about dysphagia treatment</li>
-                        </ul>
-                    </div>
-
-                    <div class="border-l-4 border-purple-500 pl-6 py-2">
-                        <h4 class="font-bold text-lg mb-2">🔹 "speech pathologist park city" (90/mo)</h4>
-                        <p class="text-gray-700 mb-2"><strong>Where:</strong> Park City location page</p>
-                        <p class="text-gray-700 mb-2"><strong>What to do:</strong></p>
-                        <ul class="list-disc list-inside space-y-1 text-gray-600 ml-4">
-                            <li>Add H2: "Experienced Speech Pathologists in Park City"</li>
-                            <li>Mention Megan's credentials (CCC-SLP, etc.)</li>
-                            <li>Use both "speech pathologist" and "speech therapist" throughout</li>
-                        </ul>
-                    </div>
-
-                    <div class="border-l-4 border-purple-500 pl-6 py-2">
-                        <h4 class="font-bold text-lg mb-2">🔹 "private pay speech therapy utah" (90/mo)</h4>
-                        <p class="text-gray-700 mb-2"><strong>Where:</strong> Create new page: /private-pay.html</p>
-                        <p class="text-gray-700 mb-2"><strong>What to do:</strong></p>
-                        <ul class="list-disc list-inside space-y-1 text-gray-600 ml-4">
-                            <li>Create dedicated private pay page (600+ words)</li>
-                            <li>Title: "Private Pay Speech Therapy in Utah | Clear Sky Speech"</li>
-                            <li>Explain benefits: flexible scheduling, personalized care, no insurance limitations</li>
-                            <li>Include pricing structure (even if ranges)</li>
-                            <li>Add CTA: "Schedule Your Free Consultation"</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-xl shadow-xl p-8 mb-6">
-                <h3 class="text-2xl font-bold mb-4 text-green-700">Quick Win Keywords (Easy Rankings)</h3>
-                
-                <div class="space-y-4">
-                    <div class="border-l-4 border-green-500 pl-6 py-2">
-                        <h4 class="font-bold text-lg mb-2">🔹 Location Keywords (Heber, Midway, Coalville, Kamas)</h4>
-                        <p class="text-gray-700 mb-2"><strong>What to do:</strong></p>
-                        <ul class="list-disc list-inside space-y-1 text-gray-600 ml-4">
-                            <li>Expand each location page to 500+ words (currently ~200)</li>
-                            <li>Add "Neighborhoods We Serve" section with specific areas</li>
-                            <li>Mention county names: Summit County, Wasatch County</li>
-                            <li>Add local landmark references (e.g., "Near Deer Valley Resort")</li>
-                        </ul>
-                    </div>
-
-                    <div class="border-l-4 border-green-500 pl-6 py-2">
-                        <h4 class="font-bold text-lg mb-2">🔹 "speech therapy summit county" / "speech therapy wasatch county"</h4>
-                        <p class="text-gray-700 mb-2"><strong>What to do:</strong></p>
-                        <ul class="list-disc list-inside space-y-1 text-gray-600 ml-4">
-                            <li>Add paragraph on each location page: "Serving [County Name]"</li>
-                            <li>Example: "Clear Sky Speech provides therapy throughout Summit County, including Park City, Coalville, and surrounding areas."</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-xl shadow-xl p-8">
-                <h3 class="text-2xl font-bold mb-4 text-blue-700">Service-Specific Keywords (High Intent)</h3>
-                
-                <div class="space-y-4">
-                    <div class="border-l-4 border-blue-500 pl-6 py-2">
-                        <h4 class="font-bold text-lg mb-2">🔹 Create Individual Service Pages</h4>
-                        <p class="text-gray-700 mb-2"><strong>Pages to create:</strong></p>
-                        <ul class="list-disc list-inside space-y-1 text-gray-600 ml-4">
-                            <li><strong>/services/articulation-therapy.html</strong> → "Articulation Therapy Park City" (50/mo)</li>
-                            <li><strong>/services/cognitive-communication.html</strong> → "Cognitive Communication Therapy Utah" (30/mo)</li>
-                            <li><strong>/services/reading-therapy.html</strong> → "Reading Therapy Utah" (60/mo)</li>
-                            <li><strong>/services/language-therapy.html</strong> → "Language Therapy for Children Utah" (110/mo)</li>
-                        </ul>
-                        <p class="text-gray-700 mt-3 mb-2"><strong>Template for each page:</strong></p>
-                        <ul class="list-disc list-inside space-y-1 text-gray-600 ml-4">
-                            <li>600-800 words</li>
-                            <li>What it is + who it's for + how it works</li>
-                            <li>Include "in Utah" or specific city name 2-3 times</li>
-                            <li>Add 3-5 FAQs at bottom</li>
-                            <li>Clear CTA to schedule consultation</li>
-                        </ul>
-                    </div>
-
-                    <div class="border-l-4 border-blue-500 pl-6 py-2">
-                        <h4 class="font-bold text-lg mb-2">🔹 Medical/Specialty Keywords</h4>
-                        <p class="text-gray-700 mb-2"><strong>New opportunities identified:</strong></p>
-                        <ul class="list-disc list-inside space-y-2 text-gray-600 ml-4">
-                            <li><strong>Stroke Speech Therapy Utah</strong> (70/mo) - Create dedicated page or expand adult services
-                                <ul class="list-circle list-inside ml-6 mt-1 text-sm">
-                                    <li>Competitive but viable (Wasatch Speech offers this, showing demand)</li>
-                                    <li>Target: Post-stroke communication recovery, aphasia therapy</li>
-                                </ul>
-                            </li>
-                            <li><strong>TBI Speech Therapy Park City</strong> (40/mo) - Low local competition
-                                <ul class="list-circle list-inside ml-6 mt-1 text-sm">
-                                    <li>Only 3 speech practices in Park City total (per directories)</li>
-                                    <li>Combine with cognitive communication therapy page</li>
-                                </ul>
-                            </li>
-                            <li><strong>Voice Therapy Utah</strong> (50/mo) - Specialized niche
-                                <ul class="list-circle list-inside ml-6 mt-1 text-sm">
-                                    <li>Few local competitors (Babette's Vocal Range in SLC)</li>
-                                    <li>Good for: singers, teachers, public speakers, voice feminization</li>
-                                </ul>
-                            </li>
-                            <li><strong>Reading Therapy Utah</strong> (60/mo) - Already identified, high value
-                                <ul class="list-circle list-inside ml-6 mt-1 text-sm">
-                                    <li>Create dedicated page targeting dyslexia, literacy struggles</li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <p class="text-gray-700 mt-4 mb-2"><strong>Lower priority:</strong></p>
-                        <ul class="list-disc list-inside space-y-1 text-gray-600 ml-4">
-                            <li><strong>Concussion Speech Therapy</strong> (30/mo) - Hospital systems dominate (U of Utah, Intermountain TOSH Sport Concussion Clinic). Consider skipping unless you specialize in sports concussion.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="bg-blue-50 border-l-4 border-blue-500 p-6 rounded mt-6">
-                <h3 class="font-bold text-lg mb-2">🔍 Research Findings (May 2026)</h3>
-                <p class="text-gray-700 mb-3"><strong>Key Discovery:</strong> Only 3 speech therapy practices listed in Park City area directories, indicating low local competition and strong opportunity for specialized services.</p>
-                <p class="text-gray-700 mb-3"><strong>Competitor Analysis:</strong></p>
-                <ul class="space-y-2 text-gray-700">
-                    <li>✓ <strong>Wasatch Speech & Language Center</strong> - Offers stroke/neuro services (shows market demand)</li>
-                    <li>✓ <strong>Intermountain Health providers</strong> - Hospital-based, less personalized (your differentiator)</li>
-                    <li>✓ <strong>Neva Therapies</strong> - Park City competitor, but broad focus</li>
-                </ul>
-                <p class="text-gray-700 mt-3"><strong>Your Advantage:</strong> Private pay, personalized care, and local presence in underserved Park City market. Target medical/specialty keywords to capture high-intent patients (stroke recovery, TBI, voice therapy) who want 1-on-1 care vs. hospital systems.</p>
-            </div>
-
-            <div class="bg-yellow-50 border-l-4 border-yellow-500 p-6 rounded mt-6">
-                <h3 class="font-bold text-lg mb-2">💡 Pro Tips for Keyword Targeting</h3>
-                <ul class="space-y-2 text-gray-700">
-                    <li>✓ Use the exact keyword phrase in the H1 (page title)</li>
-                    <li>✓ Include it in the first paragraph</li>
-                    <li>✓ Use variations naturally throughout (don't keyword stuff)</li>
-                    <li>✓ Add it to the meta description</li>
-                    <li>✓ Include it in at least one H2 heading</li>
-                    <li>✓ Internal link to these pages from homepage/other relevant pages</li>
-                    <li>✓ Write for humans first, search engines second</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Missing Pages -->
-    <section class="max-w-6xl mx-auto px-4 py-12">
-        <h2 class="text-3xl font-bold mb-6">📄 High-Value Pages to Create</h2>
-        
-        <div class="bg-purple-50 border-l-4 border-purple-500 p-6 rounded mb-6">
-            <h3 class="font-bold text-lg mb-2">✨ New Opportunities (Medical/Specialty - Add These!)</h3>
-            <div class="grid md:grid-cols-2 gap-4 mt-4">
-                <div class="bg-white rounded-lg shadow-sm p-4">
-                    <h4 class="font-bold mb-1">Stroke Speech Therapy</h4>
-                    <p class="text-sm text-gray-600 mb-2">Target: "stroke speech therapy utah" (70/mo)</p>
-                    <ul class="text-sm space-y-1 text-gray-700">
-                        <li>✓ Post-stroke communication recovery</li>
-                        <li>✓ Aphasia therapy</li>
-                        <li>✓ Personalized care vs. hospitals</li>
-                    </ul>
-                </div>
-                <div class="bg-white rounded-lg shadow-sm p-4">
-                    <h4 class="font-bold mb-1">TBI/Cognitive Communication</h4>
-                    <p class="text-sm text-gray-600 mb-2">Target: "TBI speech therapy park city" (40/mo)</p>
-                    <ul class="text-sm space-y-1 text-gray-700">
-                        <li>✓ Traumatic brain injury recovery</li>
-                        <li>✓ Cognitive-communication therapy</li>
-                        <li>✓ Low local competition</li>
-                    </ul>
-                </div>
-                <div class="bg-white rounded-lg shadow-sm p-4">
-                    <h4 class="font-bold mb-1">Voice Therapy</h4>
-                    <p class="text-sm text-gray-600 mb-2">Target: "voice therapy utah" (50/mo)</p>
-                    <ul class="text-sm space-y-1 text-gray-700">
-                        <li>✓ Singers, teachers, public speakers</li>
-                        <li>✓ Voice feminization</li>
-                        <li>✓ Specialized niche, low competition</li>
-                    </ul>
-                </div>
-                <div class="bg-white rounded-lg shadow-sm p-4">
-                    <h4 class="font-bold mb-1">Reading Therapy</h4>
-                    <p class="text-sm text-gray-600 mb-2">Target: "reading therapy utah" (60/mo)</p>
-                    <ul class="text-sm space-y-1 text-gray-700">
-                        <li>✓ Dyslexia support</li>
-                        <li>✓ Literacy struggles in children</li>
-                        <li>✓ High parent demand</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <h3 class="text-xl font-bold mb-4 mt-8">Original High-Priority Pages</h3>
-        <div class="grid md:grid-cols-3 gap-6">
-            <div class="bg-white rounded-lg shadow-md p-6 border-t-4 border-blue-500">
-                <h3 class="font-bold text-lg mb-2">Private Pay Page</h3>
-                <p class="text-sm text-gray-600 mb-3">Target: "private pay speech therapy utah" (90/mo)</p>
-                <ul class="text-sm space-y-1 text-gray-700">
-                    <li>✓ Benefits vs. insurance</li>
-                    <li>✓ Pricing structure</li>
-                    <li>✓ Payment options</li>
-                </ul>
-            </div>
-
-            <div class="bg-white rounded-lg shadow-md p-6 border-t-4 border-green-500">
-                <h3 class="font-bold text-lg mb-2">Free Consultation Page</h3>
-                <p class="text-sm text-gray-600 mb-3">Conversion-focused landing page</p>
-                <ul class="text-sm space-y-1 text-gray-700">
-                    <li>✓ What's included</li>
-                    <li>✓ Simple form</li>
-                    <li>✓ No obligation CTA</li>
-                </ul>
-            </div>
-
-            <div class="bg-white rounded-lg shadow-md p-6 border-t-4 border-purple-500">
-                <h3 class="font-bold text-lg mb-2">Cost/Pricing Page</h3>
-                <p class="text-sm text-gray-600 mb-3">Target: "speech therapy cost utah" (high volume)</p>
-                <ul class="text-sm space-y-1 text-gray-700">
-                    <li>✓ Average Utah costs</li>
-                    <li>✓ Your pricing info</li>
-                    <li>✓ Value proposition</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Expected Results -->
-    <section class="bg-gradient-to-r from-blue-50 to-purple-50 py-12">
-        <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-8 text-center">📈 Expected Results</h2>
-            
-            <div class="grid md:grid-cols-2 gap-8">
-                <div class="bg-white rounded-xl shadow-lg p-8">
-                    <h3 class="text-xl font-bold mb-4 text-gray-500">Current State (Estimated)</h3>
-                    <div class="space-y-4">
-                        <div>
-                            <p class="text-sm text-gray-600">Monthly Organic Visitors</p>
-                            <p class="text-3xl font-bold">150-300</p>
-                        </div>
-                        <div>
-                            <p class="text-sm text-gray-600">Monthly Leads from SEO</p>
-                            <p class="text-3xl font-bold">5-10</p>
-                        </div>
-                        <div>
-                            <p class="text-sm text-gray-600">Keyword Rankings</p>
-                            <p class="text-lg">Page 2-3 for most terms</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-gradient-to-br from-green-500 to-green-600 text-white rounded-xl shadow-lg p-8">
-                    <h3 class="text-xl font-bold mb-4">After 6 Months (Full Implementation)</h3>
-                    <div class="space-y-4">
-                        <div>
-                            <p class="text-sm text-green-100">Monthly Organic Visitors</p>
-                            <p class="text-3xl font-bold">800-1,200</p>
-                            <p class="text-sm text-green-100">✅ 4x increase</p>
-                        </div>
-                        <div>
-                            <p class="text-sm text-green-100">Monthly Leads from SEO</p>
-                            <p class="text-3xl font-bold">50-80</p>
-                            <p class="text-sm text-green-100">✅ 10x increase</p>
-                        </div>
-                        <div>
-                            <p class="text-sm text-green-100">Keyword Rankings</p>
-                            <p class="text-lg">Page 1 for 15-20 keywords</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mt-8 bg-white rounded-lg shadow-md p-6 text-center">
-                <p class="text-2xl font-bold text-green-600 mb-2">10-15x ROI</p>
-                <p class="text-gray-600">Expected return on SEO investment within 12 months</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Implementation Timeline -->
-    <section class="max-w-6xl mx-auto px-4 py-12">
-        <h2 class="text-3xl font-bold mb-8">⏱️ Implementation Timeline</h2>
-        
-        <div class="space-y-6">
-            <div class="bg-white rounded-lg shadow-md p-6">
-                <div class="flex items-center gap-4 mb-4">
-                    <div class="bg-red-100 text-red-700 px-3 py-1 rounded-full text-sm font-semibold">TODAY</div>
-                    <h3 class="font-bold text-lg">30 minutes</h3>
-                </div>
-                <ul class="space-y-2 text-gray-700">
-                    <li>✅ Set up Google Search Console</li>
-                    <li>✅ Submit sitemap.xml</li>
-                    <li>✅ Request indexing for homepage</li>
-                </ul>
-            </div>
-
-            <div class="bg-white rounded-lg shadow-md p-6">
-                <div class="flex items-center gap-4 mb-4">
-                    <div class="bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full text-sm font-semibold">THIS WEEK</div>
-                    <h3 class="font-bold text-lg">3-4 hours</h3>
-                </div>
-                <ul class="space-y-2 text-gray-700">
-                    <li>✅ Claim Google Business Profile</li>
-                    <li>✅ Add LocalBusiness schema to location pages</li>
-                    <li>✅ Expand location page content (500+ words each)</li>
-                </ul>
-            </div>
-
-            <div class="bg-white rounded-lg shadow-md p-6">
-                <div class="flex items-center gap-4 mb-4">
-                    <div class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-semibold">THIS MONTH</div>
-                    <h3 class="font-bold text-lg">8-10 hours</h3>
-                </div>
-                <ul class="space-y-2 text-gray-700">
-                    <li>✅ Create 3 new high-priority pages</li>
-                    <li>✅ Build 10 local citations</li>
-                    <li>✅ Write 2 blog posts</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Local SEO -->
-    <section class="bg-gray-100 py-12">
-        <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-6">📍 Local SEO Strategy</h2>
-            
-            <div class="grid md:grid-cols-2 gap-6">
-                <div class="bg-white rounded-lg shadow-md p-6">
-                    <h3 class="font-bold text-xl mb-4">Google Business Profile</h3>
-                    <p class="text-gray-700 mb-4">Critical for local visibility</p>
-                    <ul class="space-y-2 text-sm text-gray-600">
-                        <li>✓ Claim/verify listing</li>
-                        <li>✓ Add 10+ photos</li>
-                        <li>✓ Add all 5 service areas</li>
-                        <li>✓ Post weekly updates</li>
-                        <li>✓ Collect reviews (target: 25+)</li>
-                    </ul>
-                </div>
-
-                <div class="bg-white rounded-lg shadow-md p-6">
-                    <h3 class="font-bold text-xl mb-4">Local Citations</h3>
-                    <p class="text-gray-700 mb-4">Build directory presence</p>
-                    <ul class="space-y-2 text-sm text-gray-600">
-                        <li>✓ ASHA ProFind</li>
-                        <li>✓ HealthGrades</li>
-                        <li>✓ Psychology Today</li>
-                        <li>✓ Yelp for Business</li>
-                        <li>✓ Facebook Business Page</li>
-                        <li>✓ Bing Places</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Technical Details -->
-    <section class="max-w-6xl mx-auto px-4 py-12">
-        <h2 class="text-3xl font-bold mb-6">🔧 Technical SEO Status</h2>
-        
-        <div class="bg-white rounded-xl shadow-xl p-8">
-            <div class="grid md:grid-cols-2 gap-8">
-                <div>
-                    <h3 class="font-bold text-lg mb-4 text-green-600">✅ What's Good</h3>
-                    <ul class="space-y-2 text-gray-700">
-                        <li>✓ Fast page load speed</li>
-                        <li>✓ Mobile-responsive design</li>
-                        <li>✓ HTTPS enabled</li>
-                        <li>✓ Clean URL structure</li>
-                        <li>✓ Schema markup on homepage</li>
-                        <li>✓ Meta descriptions present</li>
-                        <li>✓ Google Analytics installed</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3 class="font-bold text-lg mb-4 text-yellow-600">⚠️ Needs Improvement</h3>
-                    <ul class="space-y-2 text-gray-700">
-                        <li>⚠ Some images not optimized</li>
-                        <li>⚠ Missing schema on location pages</li>
-                        <li>⚠ Thin content on some pages</li>
-                        <li>⚠ Limited internal linking</li>
-                        <li>⚠ No breadcrumb schema</li>
-                        <li>⚠ Blog posts missing meta descriptions</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Download Full Report -->
-    <section class="bg-gradient-to-r from-teal-600 to-teal-800 text-white py-16">
-        <div class="max-w-4xl mx-auto px-4 text-center">
-            <h2 class="text-3xl font-bold mb-4">📥 Full Documentation Available</h2>
-            <p class="text-xl mb-8">Complete audit report and implementation checklist in the GitHub repository</p>
-            
-            <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="https://github.com/iambarabbas/clear-sky-speech/blob/main/SEO-AUDIT-2026-05-28.md" 
-                   target="_blank"
-                   class="bg-white text-teal-700 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition">
-                    View Full Audit Report →
-                </a>
-                <a href="https://github.com/iambarabbas/clear-sky-speech/blob/main/SEO-IMPLEMENTATION-CHECKLIST.md" 
-                   target="_blank"
-                   class="bg-teal-500 text-white px-8 py-4 rounded-lg font-semibold hover:bg-teal-400 transition">
-                    Implementation Checklist →
-                </a>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-900 text-gray-300 py-8">
+    <footer class="bg-teal-dark text-white py-8 mt-12">
         <div class="max-w-6xl mx-auto px-4 text-center">
-            <p class="mb-2">SEO Audit Report for Clear Sky Speech Therapy</p>
-            <p class="text-sm text-gray-500">Generated May 28, 2026 | <a href="https://clearskyspeechutah.com" class="text-teal-400 hover:underline">clearskyspeechutah.com</a></p>
+            <p class="text-sm text-gray-300">Clear Sky Speech Therapy SEO Checklist</p>
+            <p class="text-xs text-gray-400 mt-2">Last Updated: June 1, 2026 | <a href="https://clearskyspeechutah.com" class="hover:text-coral">Visit Site →</a></p>
         </div>
     </footer>
 </body>
