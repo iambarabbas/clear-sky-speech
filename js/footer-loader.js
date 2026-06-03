@@ -4,8 +4,8 @@
     const path = window.location.pathname;
     let basePath = '';
     
-    // If we're in a subdirectory (services/, locations/, etc.), go up one level
-    if (path.includes('/services/') || path.includes('/locations/')) {
+    // If we're in a subdirectory (services/, locations/, blog/, etc.), go up one level
+    if (path.includes('/services/') || path.includes('/locations/') || path.includes('/blog/')) {
         basePath = '../';
     }
     
