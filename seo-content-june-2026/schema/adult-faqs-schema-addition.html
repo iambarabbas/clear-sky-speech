@@ -1,0 +1,52 @@
+<!-- Additional FAQ Schema for Adult Services -->
+<!-- ADD these three questions to the existing FAQ schema on the FAQ page -->
+<!-- Insert into the existing "mainEntity" array -->
+
+{
+  "@type": "Question",
+  "name": "Do you offer speech therapy for adults?",
+  "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes, we provide comprehensive adult speech therapy services including stroke and brain injury rehabilitation (aphasia, apraxia, dysarthria), voice therapy for professionals experiencing vocal strain or hoarseness, accent modification training for working professionals, and swallowing therapy (dysphagia). Our speech-language pathologist is VitalStim certified for dysphagia treatment and has specialized training in adult neurogenic communication disorders. We serve adults of all ages in Park City, Heber City, Midway, and surrounding Utah communities, with teletherapy available statewide."
+  }
+},
+{
+  "@type": "Question",
+  "name": "Can speech therapy help with my accent?",
+  "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Absolutely. Accent modification (also called accent reduction or accent training) helps non-native English speakers improve their pronunciation, intonation, rhythm, and stress patterns of American English. This service is ideal for working professionals, executives, graduate students, and anyone who wants to improve their communication clarity for professional or personal reasons. Most clients see noticeable progress within 12-20 sessions. Treatment is personalized to your native language background and specific goals. This is especially popular with working professionals in Park City and the greater Wasatch area who want to enhance their professional communication skills."
+  }
+},
+{
+  "@type": "Question",
+  "name": "How long does voice therapy take?",
+  "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Voice therapy duration varies depending on the condition and severity, but most clients see improvement within 6-12 sessions. We commonly work with teachers, coaches, ski instructors, tour guides, public speakers, and call center employees experiencing vocal strain, hoarseness, chronic voice loss, or vocal fatigue. Treatment includes vocal hygiene education (hydration, rest, lifestyle changes), breath support techniques to reduce throat strain, resonance training for efficient voice placement, and relaxation exercises for the neck, jaw, and throat. Many clients notice reduced hoarseness and increased vocal endurance within the first few weeks of therapy."
+  }
+}
+
+<!-- INSTRUCTIONS FOR BRETT: -->
+<!-- 1. Open the FAQ page HTML file -->
+<!-- 2. Find the existing FAQ schema <script type="application/ld+json"> -->
+<!-- 3. Locate the "mainEntity" array -->
+<!-- 4. Add these three new question objects to the end of the array (before the closing bracket) -->
+<!-- 5. Make sure to add a comma after the last existing question before inserting these -->
+
+<!-- Example of where to insert: -->
+<!--
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {existing question 1},
+    {existing question 2},
+    ...
+    {existing last question},   <-- ADD COMMA HERE
+    {NEW QUESTION 1 from above},
+    {NEW QUESTION 2 from above},
+    {NEW QUESTION 3 from above}
+  ]
+}
+-->
