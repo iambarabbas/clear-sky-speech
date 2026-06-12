@@ -120,6 +120,80 @@
   "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "08:00", "closes": "18:00"}],
 }
     </script>
+
+    <!-- LocalBusiness + MedicalBusiness Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["MedicalBusiness", "HealthAndBeautyBusiness"],
+      "@id": "https://clearskyspeechutah.com/#organization",
+      "name": "Clear Sky Speech Therapy",
+      "description": "Professional speech-language therapy for children and adults in Park City, Heber City, and Midway, Utah. Private pay services with flexible scheduling.",
+      "url": "https://clearskyspeechutah.com",
+      "logo": "https://clearskyspeechutah.com/images/clear-sky-logo.png",
+      "image": "https://clearskyspeechutah.com/images/clear-sky-logo.png",
+      "telephone": "+1-435-572-8873",
+      "email": "info@clearskyspeechutah.com",
+      "priceRange": "$$",
+      "paymentAccepted": "Cash, Check, Credit Card, Venmo, Zelle",
+      "currenciesAccepted": "USD",
+      "medicalSpecialty": [
+        "Speech-Language Pathology",
+        "Pediatric Speech Therapy",
+        "Adult Speech-Language Pathology",
+        "Stroke Rehabilitation",
+        "Accent Modification",
+        "Voice Therapy",
+        "Dysphagia Treatment"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kamas",
+        "addressRegion": "UT",
+        "postalCode": "84036",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {"@type": "City", "name": "Park City", "address": {"@type": "PostalAddress", "addressRegion": "UT", "addressCountry": "US"}},
+        {"@type": "City", "name": "Heber City", "address": {"@type": "PostalAddress", "addressRegion": "UT", "addressCountry": "US"}},
+        {"@type": "City", "name": "Midway", "address": {"@type": "PostalAddress", "addressRegion": "UT", "addressCountry": "US"}},
+        {"@type": "City", "name": "Kamas", "address": {"@type": "PostalAddress", "addressRegion": "UT", "addressCountry": "US"}},
+        {"@type": "City", "name": "Oakley", "address": {"@type": "PostalAddress", "addressRegion": "UT", "addressCountry": "US"}}
+      ],
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "40.6916",
+        "longitude": "-111.4980"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Speech Therapy Services",
+        "itemListElement": [
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Pediatric Speech Therapy", "description": "Comprehensive speech and language therapy for children with articulation, language delays, stuttering, and social communication challenges."}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Adult Speech Therapy", "description": "Stroke recovery, traumatic brain injury rehabilitation, voice therapy, and dysphagia treatment for adults."}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Teletherapy", "description": "Online speech therapy sessions via secure video platform for clients throughout Utah."}}
+        ]
+      },
+      "founder": {
+        "@type": "Person",
+        "name": "Megan Williamson",
+        "jobTitle": "Speech-Language Pathologist",
+        "description": "Licensed Speech-Language Pathologist (MS, CCC-SLP) with VitalStim certification specializing in pediatric and adult speech therapy."
+      },
+      "sameAs": [
+        "https://www.facebook.com/clearskyspeechutah",
+        "https://www.instagram.com/clearskyspeechutah"
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "08:00",
+          "closes": "18:00"
+        }
+      ]
+    }
+    </script>
 </head>
 <body class="bg-white text-gray-800">
     <!-- Navigation -->
